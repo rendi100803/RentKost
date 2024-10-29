@@ -1,0 +1,9 @@
+#dropdownDividerButton::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    width: 50%;
+    border-bottom: 2px solid #E5E7EB; /* Warna garis */
+    transform: translateX(-50%);
+}
