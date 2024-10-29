@@ -13,7 +13,7 @@
 2. Setelah proses cloning selesai, buka terminal atau git bash di direktori root proyek Anda.
 3. Jalankan perintah composer install untuk menginstal semua dependensi proyek.
 4. Setelah proses instalasi selesai, buat file .env di root proyek Anda. Anda juga dapat meng-clone file env.example dan mengubah namanya menjadi .env.
-5. Di dalam file .env, ganti nama database menjadi "Mangeaa_WEB".
+5. Di dalam file .env, ganti nama database menjadi "rentkost".
 6. Selanjutnya, jalankan perintah php artisan key:generate di terminal atau git bash untuk menghasilkan kunci aplikasi.
 7. Setelah itu, jalankan perintah php artisan migrate --seed untuk menjalankan migrasi database dan seeding data.
 8. Setelah proses tersebut selesai, Anda dapat menjalankan proyek dengan mengetikkan perintah php artisan serve di terminal atau git bash.
